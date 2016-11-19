@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                Uri uri=Uri.parse("http://kmmc.in/wp-content/uploads/2014/01/lesson2.pdf");
                DownloadManager.Request request=new DownloadManager.Request(uri)
                        .setTitle("How to use pdf")
-                       .setDescription("hello word")
+                       .setDescription("hello world")
                        .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
 
                downloadManager.enqueue(request);
